@@ -1,5 +1,5 @@
-# [TIP2023] Convolution Enhanced Bi-Branch Adaptive Transformer with Cross-Task Interaction
-PyTorch implementation of Convolution-Enhanced Bi-Branch Adaptive Transformer with Cross-Task Interaction for Food  Category and Ingredient Recognition [Paper]
+# [TIP2024] Convolution Enhanced Bi-Branch Adaptive Transformer with Cross-Task Interaction
+PyTorch implementation of Convolution-Enhanced Bi-Branch Adaptive Transformer with Cross-Task Interaction for Food  Category and Ingredient Recognition [[Paper](https://ieeexplore.ieee.org/document/10471331)]
 
 If you use the code in this repo for your work, please cite the following bib entries:
 
