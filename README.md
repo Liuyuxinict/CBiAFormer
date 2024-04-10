@@ -12,3 +12,13 @@ iments show that our method achieves competitive performance on three mainstream
 
 ![BiA-Attention](Figures/figure2.png)
 <p align="center">The illustration for our proposed Bi-branch Adaptive Attention.</p>
+
+## Requirements
+
+## Datasets and pretrained models
+
+## Training scripts
+
+## Pretrain scripts
+
+## Acknowledgment
