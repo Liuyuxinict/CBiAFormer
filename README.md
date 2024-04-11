@@ -27,7 +27,9 @@ Please, install the following packages:
 - yacs==0.1.8
 
 You may also install the environment through the requirement.txt file, please run:
+'''sh
 bash conda install --file requirement.txt
+'''
 
 
 ## Datasets and pretrained models
