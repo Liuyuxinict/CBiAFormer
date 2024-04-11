@@ -14,6 +14,21 @@ iments show that our method achieves competitive performance on three mainstream
 <p align="center">The illustration for our proposed Bi-branch Adaptive Attention.</p>
 
 ## Requirements
+Please, install the following packages:
+- [PyTorch >= version 1.7](https://pytorch.org)
+- tqdm == 0.46
+- apex == 0.1
+- einops==0.4.0
+- importlib
+- numpy
+- pandas
+- tensorboard
+- timm == 0.5.4
+- yacs==0.1.8
+
+You may also install the environment through the requirement.txt file, please run:
+bash conda install --file requirement.txt
+
 
 ## Datasets and pretrained models
 
