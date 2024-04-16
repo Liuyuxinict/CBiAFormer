@@ -29,13 +29,42 @@ Please, install the following packages:
 You may also install the environment through the requirement.txt file, please run:
 
 ```sh
-conda install --file requirement.txt
+$ conda install --file requirement.txt
 ```
 
 ## Datasets and pretrained models
+We follow [IG-CMAN](https://github.com/minweiqing/Ingredient-Guided-Cascaded-Multi-Attention-Network-for-Food-Recognition) setting to use the same data index_list for training.  
+For ETH Food-101, the dataset will be download from [here].()(Code: ). 
+For Vireo Food-172, the dataset will be download from [here].(Code: )
+For ISIA Food-200, the dataset will be download from [here].(https://github.com/minweiqing/Ingredient-Guided-Cascaded-Multi-Attention-Network-for-Food-Recognition)
+
+You can find pretrained models from [here]()
 
 ## Training scripts
+ETH Food-101
+```
+$ python -m torch.distributed.launch --nproc_per_node=4 train.py  --fp16 --name CBiAFormer --model_type CBiAFormer-B --dataset food101 --pretrained_dir pretrained_path --data_root data_path --img_size 384 --train_batch_size 1024  --learning_rate 0.008
+```
 
-## Pretrain scripts
+Vireo Food-172
+```
+$ python -m torch.distributed.launch --nproc_per_node=4 train.py  --fp16 --name CBiAFormer --model_type CBiAFormer-B --dataset food172 --pretrained_dir pretrained_path --data_root data_path --img_size 384 --train_batch_size 1024  --learning_rate 0.008
+```
 
-## Acknowledgment
+ISIA Food-200
+```
+$ python -m torch.distributed.launch --nproc_per_node=4 train.py  --fp16 --name CBiAFormer --model_type CBiAFormer-B --dataset food200 --pretrained_dir pretrained_path --data_root data_path --img_size 384 --train_batch_size 1024  --learning_rate 0.008
+```
+
+
+## Reference
+If you are interested in our work and want to cite it, please acknowledge the following paper:
+```
+@article{liu2024convolution,
+  title={Convolution-Enhanced Bi-Branch Adaptive Transformer with Cross-Task Interaction for Food Category and Ingredient Recognition},
+  author={Liu, Yuxin and Min, Weiqing and Jiang, Shuqiang and Rui, Yong},
+  journal={IEEE Transactions on Image Processing},
+  year={2024},
+  publisher={IEEE}
+}
+```
