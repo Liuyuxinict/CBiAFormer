@@ -34,8 +34,11 @@ $ conda install --file requirement.txt
 
 ## Datasets and pretrained models
 We follow [IG-CMAN](https://github.com/minweiqing/Ingredient-Guided-Cascaded-Multi-Attention-Network-for-Food-Recognition) setting to use the same data index_list for training.  
+
 For ETH Food-101, the dataset will be download from [here]()(Code: ).
+
 For Vireo Food-172, the dataset will be download from [here](Code: ).
+
 For ISIA Food-200, the dataset will be download from [here](https://github.com/minweiqing/Ingredient-Guided-Cascaded-Multi-Attention-Network-for-Food-Recognition).
 
 You can find pretrained models from [here]()
